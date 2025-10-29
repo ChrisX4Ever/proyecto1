@@ -23,6 +23,9 @@ Ayudantia_1_BMI270_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Ayudantia_1_BMI270_SOURCE_DIR:STATIC=/home/chris/TIC_III/proyecto1
 
+//No help, variable specified on the command line.
+CCACHE_ENABLE:UNINITIALIZED=0
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/home/chris/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-addr2line
 
@@ -354,6 +357,9 @@ Mbed TLS_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 Mbed TLS_SOURCE_DIR:STATIC=/home/chris/esp/v5.5/esp-idf/components/mbedtls/mbedtls
+
+//No help, variable specified on the command line.
+PYTHON:UNINITIALIZED=/home/chris/.espressif/python_env/idf5.5_py3.12_env/bin/python
 
 //No help, variable specified on the command line.
 PYTHON_DEPS_CHECKED:UNINITIALIZED=1

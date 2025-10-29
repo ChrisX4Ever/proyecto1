@@ -58,14 +58,21 @@ static void handle_command(const char *cmd);
 
 // -----------------------------------------------------------------------------
 // Implementación WiFi (modo station básico)
+static void wifi_reconnect_task(void *arg)
+{
+    ESP_LOGI(TAG, "Reconectando WiFi...");
+    esp_wifi_connect();
+    vTaskDelete(NULL);
+}
+
 static void wifi_event_handler(void* arg, esp_event_base_t event_base,
                                int32_t event_id, void* event_data)
 {
     if (event_base == WIFI_EVENT && event_id == WIFI_EVENT_STA_START) {
-        esp_wifi_connect();
+        xTaskCreate(wifi_reconnect_task, "wifi_reconnect_task", 4096, NULL, 5, NULL);
     } else if (event_base == WIFI_EVENT && event_id == WIFI_EVENT_STA_DISCONNECTED) {
-        ESP_LOGI(TAG, "WiFi desconectado, reintentando...");
-        esp_wifi_connect();
+        ESP_LOGI(TAG, "WiFi desconectado, creando tarea de reconexión...");
+        xTaskCreate(wifi_reconnect_task, "wifi_reconnect_task", 4096, NULL, 5, NULL);
     } else if (event_base == IP_EVENT && event_id == IP_EVENT_STA_GOT_IP) {
         ip_event_got_ip_t* event = (ip_event_got_ip_t*) event_data;
         ESP_LOGI(TAG, "Obtuvo IP: " IPSTR, IP2STR(&event->ip_info.ip));
