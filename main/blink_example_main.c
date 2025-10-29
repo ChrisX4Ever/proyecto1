@@ -36,8 +36,8 @@ extern esp_err_t bmi_write(uint8_t *data_address, uint8_t *data_wr, size_t size)
 extern esp_err_t bmi_init(void);
 
 // --- Configuración WiFi / TCP Server (ajustar) ---
-#define WIFI_SSID       "TU_SSID"
-#define WIFI_PASS       "TU_PASSWORD"
+#define WIFI_SSID       "Sala de Estudios DIE"
+#define WIFI_PASS       "SE.die2025"
 #define SERVER_IP       "192.168.1.100"   // IP de la Raspberry Pi (ajusta)
 #define SERVER_PORT     5000
 
