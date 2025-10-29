@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "Ayudantia_1_BMI270",
-    "project_version":    "d369bbe-dirty",
+    "project_version":    "2d08740-dirty",
     "project_path":       "/home/chris/TIC_III/proyecto1",
     "idf_path":           "/home/chris/esp/v5.5/esp-idf",
     "build_dir":          "/home/chris/TIC_III/proyecto1/build",

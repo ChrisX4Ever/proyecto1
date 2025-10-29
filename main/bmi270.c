@@ -688,7 +688,7 @@ void bmipowermode(void)
     vTaskDelay( 1000 /portTICK_PERIOD_MS);   
 }
 
-void app_main(void)
+void bmi_sensor_init(void)
 {       
     ESP_ERROR_CHECK(bmi_init());
     softreset();
