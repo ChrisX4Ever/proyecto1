@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "Ayudantia_1_BMI270",
-    "project_version":    "1",
+    "project_version":    "d369bbe-dirty",
     "project_path":       "/home/chris/TIC_III/proyecto1",
     "idf_path":           "/home/chris/esp/v5.5/esp-idf",
     "build_dir":          "/home/chris/TIC_III/proyecto1/build",
@@ -21,12 +21,12 @@
     "monitor_toolprefix": "xtensa-esp32s3-elf-",
     "c_compiler":         "/home/chris/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc",
     "config_environment" : {
-        "COMPONENT_KCONFIGS" : "/home/chris/esp/v5.5/esp-idf/components/driver/Kconfig;/home/chris/esp/v5.5/esp-idf/components/efuse/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_common/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_ana_cmpr/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_bitscrambler/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_dac/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_gpio/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_gptimer/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_i2c/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_i2s/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_ledc/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_mcpwm/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_parlio/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_pcnt/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_rmt/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_sdm/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_spi/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_tsens/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_twai/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_uart/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_usb_serial_jtag/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_hw_support/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_mm/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_partition/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_pm/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_ringbuf/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_rom/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_security/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_system/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_timer/Kconfig;/home/chris/esp/v5.5/esp-idf/components/freertos/Kconfig;/home/chris/esp/v5.5/esp-idf/components/hal/Kconfig;/home/chris/esp/v5.5/esp-idf/components/heap/Kconfig;/home/chris/esp/v5.5/esp-idf/components/log/Kconfig;/home/chris/esp/v5.5/esp-idf/components/mbedtls/Kconfig;/home/chris/esp/v5.5/esp-idf/components/newlib/Kconfig;/home/chris/esp/v5.5/esp-idf/components/pthread/Kconfig;/home/chris/esp/v5.5/esp-idf/components/soc/Kconfig;/home/chris/esp/v5.5/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS" : "/home/chris/esp/v5.5/esp-idf/components/driver/Kconfig;/home/chris/esp/v5.5/esp-idf/components/efuse/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_coex/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_common/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_ana_cmpr/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_bitscrambler/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_dac/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_gpio/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_gptimer/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_i2c/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_i2s/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_ledc/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_mcpwm/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_parlio/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_pcnt/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_rmt/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_sdm/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_spi/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_tsens/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_twai/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_uart/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_driver_usb_serial_jtag/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_event/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_hw_support/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_mm/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_netif/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_partition/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_phy/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_pm/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_ringbuf/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_rom/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_security/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_system/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_timer/Kconfig;/home/chris/esp/v5.5/esp-idf/components/esp_wifi/Kconfig;/home/chris/esp/v5.5/esp-idf/components/freertos/Kconfig;/home/chris/esp/v5.5/esp-idf/components/hal/Kconfig;/home/chris/esp/v5.5/esp-idf/components/heap/Kconfig;/home/chris/esp/v5.5/esp-idf/components/log/Kconfig;/home/chris/esp/v5.5/esp-idf/components/lwip/Kconfig;/home/chris/esp/v5.5/esp-idf/components/mbedtls/Kconfig;/home/chris/esp/v5.5/esp-idf/components/newlib/Kconfig;/home/chris/esp/v5.5/esp-idf/components/nvs_flash/Kconfig;/home/chris/esp/v5.5/esp-idf/components/pthread/Kconfig;/home/chris/esp/v5.5/esp-idf/components/soc/Kconfig;/home/chris/esp/v5.5/esp-idf/components/spi_flash/Kconfig;/home/chris/esp/v5.5/esp-idf/components/vfs/Kconfig",
         "COMPONENT_KCONFIGS_PROJBUILD" : "/home/chris/esp/v5.5/esp-idf/components/bootloader/Kconfig.projbuild;/home/chris/esp/v5.5/esp-idf/components/esp_app_format/Kconfig.projbuild;/home/chris/esp/v5.5/esp-idf/components/esp_rom/Kconfig.projbuild;/home/chris/esp/v5.5/esp-idf/components/esptool_py/Kconfig.projbuild;/home/chris/esp/v5.5/esp-idf/components/partition_table/Kconfig.projbuild;/home/chris/TIC_III/proyecto1/main/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "xtensa" ],
-    "build_components" : [ "app_update", "bootloader", "bootloader_support", "cxx", "driver", "efuse", "esp_app_format", "esp_bootloader_format", "esp_common", "esp_driver_ana_cmpr", "esp_driver_bitscrambler", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_rmt", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_tsens", "esp_driver_twai", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_hw_support", "esp_mm", "esp_partition", "esp_pm", "esp_ringbuf", "esp_rom", "esp_security", "esp_system", "esp_timer", "espressif__led_strip", "esptool_py", "freertos", "hal", "heap", "log", "main", "mbedtls", "newlib", "partition_table", "pthread", "sdmmc", "soc", "spi_flash", "xtensa", "" ],
-    "build_component_paths" : [ "/home/chris/esp/v5.5/esp-idf/components/app_update", "/home/chris/esp/v5.5/esp-idf/components/bootloader", "/home/chris/esp/v5.5/esp-idf/components/bootloader_support", "/home/chris/esp/v5.5/esp-idf/components/cxx", "/home/chris/esp/v5.5/esp-idf/components/driver", "/home/chris/esp/v5.5/esp-idf/components/efuse", "/home/chris/esp/v5.5/esp-idf/components/esp_app_format", "/home/chris/esp/v5.5/esp-idf/components/esp_bootloader_format", "/home/chris/esp/v5.5/esp-idf/components/esp_common", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_ana_cmpr", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_bitscrambler", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_dac", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_gpio", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_gptimer", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_i2c", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_i2s", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_ledc", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_mcpwm", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_parlio", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_pcnt", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_rmt", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_sdio", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_sdm", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_sdmmc", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_sdspi", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_spi", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_tsens", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_twai", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_uart", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_usb_serial_jtag", "/home/chris/esp/v5.5/esp-idf/components/esp_hw_support", "/home/chris/esp/v5.5/esp-idf/components/esp_mm", "/home/chris/esp/v5.5/esp-idf/components/esp_partition", "/home/chris/esp/v5.5/esp-idf/components/esp_pm", "/home/chris/esp/v5.5/esp-idf/components/esp_ringbuf", "/home/chris/esp/v5.5/esp-idf/components/esp_rom", "/home/chris/esp/v5.5/esp-idf/components/esp_security", "/home/chris/esp/v5.5/esp-idf/components/esp_system", "/home/chris/esp/v5.5/esp-idf/components/esp_timer", "/home/chris/TIC_III/proyecto1/managed_components/espressif__led_strip", "/home/chris/esp/v5.5/esp-idf/components/esptool_py", "/home/chris/esp/v5.5/esp-idf/components/freertos", "/home/chris/esp/v5.5/esp-idf/components/hal", "/home/chris/esp/v5.5/esp-idf/components/heap", "/home/chris/esp/v5.5/esp-idf/components/log", "/home/chris/TIC_III/proyecto1/main", "/home/chris/esp/v5.5/esp-idf/components/mbedtls", "/home/chris/esp/v5.5/esp-idf/components/newlib", "/home/chris/esp/v5.5/esp-idf/components/partition_table", "/home/chris/esp/v5.5/esp-idf/components/pthread", "/home/chris/esp/v5.5/esp-idf/components/sdmmc", "/home/chris/esp/v5.5/esp-idf/components/soc", "/home/chris/esp/v5.5/esp-idf/components/spi_flash", "/home/chris/esp/v5.5/esp-idf/components/xtensa", "" ],
+    "build_components" : [ "app_update", "bootloader", "bootloader_support", "cxx", "driver", "efuse", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_bitscrambler", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_rmt", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_tsens", "esp_driver_twai", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_event", "esp_hw_support", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_ringbuf", "esp_rom", "esp_security", "esp_system", "esp_timer", "esp_vfs_console", "esp_wifi", "espressif__led_strip", "esptool_py", "freertos", "hal", "heap", "log", "lwip", "main", "mbedtls", "newlib", "nvs_flash", "partition_table", "pthread", "sdmmc", "soc", "spi_flash", "vfs", "wpa_supplicant", "xtensa", "" ],
+    "build_component_paths" : [ "/home/chris/esp/v5.5/esp-idf/components/app_update", "/home/chris/esp/v5.5/esp-idf/components/bootloader", "/home/chris/esp/v5.5/esp-idf/components/bootloader_support", "/home/chris/esp/v5.5/esp-idf/components/cxx", "/home/chris/esp/v5.5/esp-idf/components/driver", "/home/chris/esp/v5.5/esp-idf/components/efuse", "/home/chris/esp/v5.5/esp-idf/components/esp_app_format", "/home/chris/esp/v5.5/esp-idf/components/esp_bootloader_format", "/home/chris/esp/v5.5/esp-idf/components/esp_coex", "/home/chris/esp/v5.5/esp-idf/components/esp_common", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_ana_cmpr", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_bitscrambler", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_dac", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_gpio", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_gptimer", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_i2c", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_i2s", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_ledc", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_mcpwm", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_parlio", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_pcnt", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_rmt", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_sdio", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_sdm", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_sdmmc", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_sdspi", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_spi", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_tsens", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_twai", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_uart", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_usb_serial_jtag", "/home/chris/esp/v5.5/esp-idf/components/esp_event", "/home/chris/esp/v5.5/esp-idf/components/esp_hw_support", "/home/chris/esp/v5.5/esp-idf/components/esp_mm", "/home/chris/esp/v5.5/esp-idf/components/esp_netif", "/home/chris/esp/v5.5/esp-idf/components/esp_netif_stack", "/home/chris/esp/v5.5/esp-idf/components/esp_partition", "/home/chris/esp/v5.5/esp-idf/components/esp_phy", "/home/chris/esp/v5.5/esp-idf/components/esp_pm", "/home/chris/esp/v5.5/esp-idf/components/esp_ringbuf", "/home/chris/esp/v5.5/esp-idf/components/esp_rom", "/home/chris/esp/v5.5/esp-idf/components/esp_security", "/home/chris/esp/v5.5/esp-idf/components/esp_system", "/home/chris/esp/v5.5/esp-idf/components/esp_timer", "/home/chris/esp/v5.5/esp-idf/components/esp_vfs_console", "/home/chris/esp/v5.5/esp-idf/components/esp_wifi", "/home/chris/TIC_III/proyecto1/managed_components/espressif__led_strip", "/home/chris/esp/v5.5/esp-idf/components/esptool_py", "/home/chris/esp/v5.5/esp-idf/components/freertos", "/home/chris/esp/v5.5/esp-idf/components/hal", "/home/chris/esp/v5.5/esp-idf/components/heap", "/home/chris/esp/v5.5/esp-idf/components/log", "/home/chris/esp/v5.5/esp-idf/components/lwip", "/home/chris/TIC_III/proyecto1/main", "/home/chris/esp/v5.5/esp-idf/components/mbedtls", "/home/chris/esp/v5.5/esp-idf/components/newlib", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash", "/home/chris/esp/v5.5/esp-idf/components/partition_table", "/home/chris/esp/v5.5/esp-idf/components/pthread", "/home/chris/esp/v5.5/esp-idf/components/sdmmc", "/home/chris/esp/v5.5/esp-idf/components/soc", "/home/chris/esp/v5.5/esp-idf/components/spi_flash", "/home/chris/esp/v5.5/esp-idf/components/vfs", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant", "/home/chris/esp/v5.5/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "app_update": {
             "alias": "idf::app_update",
@@ -146,6 +146,21 @@
             "managed_priv_reqs": [],
             "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
             "sources": [ "/home/chris/esp/v5.5/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "esp_coex": {
+            "alias": "idf::esp_coex",
+            "target": "___idf_esp_coex",
+            "prefix": "idf",
+            "dir": "/home/chris/esp/v5.5/esp-idf/components/esp_coex",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_coex",
+            "reqs": [],
+            "priv_reqs": [ "esp_timer", "esp_driver_gpio" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/esp_coex/libesp_coex.a",
+            "sources": [ "/home/chris/esp/v5.5/esp-idf/components/esp_coex/esp32s3/esp_coex_adapter.c", "/home/chris/esp/v5.5/esp-idf/components/esp_coex/src/coexist_debug_diagram.c", "/home/chris/esp/v5.5/esp-idf/components/esp_coex/src/coexist_debug.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_common": {
@@ -460,7 +475,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
-            "sources": [ "/home/chris/esp/v5.5/esp-idf/components/esp_driver_uart/src/uart.c", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_uart/src/uart_wakeup.c", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_uart/src/uhci.c" ],
+            "sources": [ "/home/chris/esp/v5.5/esp-idf/components/esp_driver_uart/src/uart.c", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_uart/src/uart_wakeup.c", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_uart/src/uhci.c", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_uart/src/uart_vfs.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_driver_usb_serial_jtag": {
@@ -475,7 +490,22 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a",
-            "sources": [ "/home/chris/esp/v5.5/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag.c", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c" ],
+            "sources": [ "/home/chris/esp/v5.5/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag.c", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c", "/home/chris/esp/v5.5/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "esp_event": {
+            "alias": "idf::esp_event",
+            "target": "___idf_esp_event",
+            "prefix": "idf",
+            "dir": "/home/chris/esp/v5.5/esp-idf/components/esp_event",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_event",
+            "reqs": [ "log", "esp_common", "freertos" ],
+            "priv_reqs": [ "esp_timer" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/esp_event/libesp_event.a",
+            "sources": [ "/home/chris/esp/v5.5/esp-idf/components/esp_event/default_event_loop.c", "/home/chris/esp/v5.5/esp-idf/components/esp_event/esp_event.c", "/home/chris/esp/v5.5/esp-idf/components/esp_event/esp_event_private.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_hw_support": {
@@ -508,6 +538,36 @@
             "sources": [ "/home/chris/esp/v5.5/esp-idf/components/esp_mm/esp_mmu_map.c", "/home/chris/esp/v5.5/esp-idf/components/esp_mm/port/esp32s3/ext_mem_layout.c", "/home/chris/esp/v5.5/esp-idf/components/esp_mm/esp_cache_msync.c", "/home/chris/esp/v5.5/esp-idf/components/esp_mm/esp_cache_utils.c", "/home/chris/esp/v5.5/esp-idf/components/esp_mm/heap_align_hw.c" ],
             "include_dirs": [ "include" ]
         },
+        "esp_netif": {
+            "alias": "idf::esp_netif",
+            "target": "___idf_esp_netif",
+            "prefix": "idf",
+            "dir": "/home/chris/esp/v5.5/esp-idf/components/esp_netif",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_netif",
+            "reqs": [ "esp_event" ],
+            "priv_reqs": [ "esp_netif_stack" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/esp_netif/libesp_netif.a",
+            "sources": [ "/home/chris/esp/v5.5/esp-idf/components/esp_netif/esp_netif_handlers.c", "/home/chris/esp/v5.5/esp-idf/components/esp_netif/esp_netif_objects.c", "/home/chris/esp/v5.5/esp-idf/components/esp_netif/esp_netif_defaults.c", "/home/chris/esp/v5.5/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c", "/home/chris/esp/v5.5/esp-idf/components/esp_netif/lwip/esp_netif_sntp.c", "/home/chris/esp/v5.5/esp-idf/components/esp_netif/lwip/esp_netif_lwip_defaults.c", "/home/chris/esp/v5.5/esp-idf/components/esp_netif/lwip/netif/wlanif.c", "/home/chris/esp/v5.5/esp-idf/components/esp_netif/lwip/netif/ethernetif.c", "/home/chris/esp/v5.5/esp-idf/components/esp_netif/lwip/netif/esp_pbuf_ref.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "esp_netif_stack": {
+            "alias": "idf::esp_netif_stack",
+            "target": "___idf_esp_netif_stack",
+            "prefix": "idf",
+            "dir": "/home/chris/esp/v5.5/esp-idf/components/esp_netif_stack",
+            "type": "CONFIG_ONLY",
+            "lib": "__idf_esp_netif_stack",
+            "reqs": [ "lwip" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "",
+            "sources": [],
+            "include_dirs": []
+        },
         "esp_partition": {
             "alias": "idf::esp_partition",
             "target": "___idf_esp_partition",
@@ -522,6 +582,21 @@
             "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/esp_partition/libesp_partition.a",
             "sources": [ "/home/chris/esp/v5.5/esp-idf/components/esp_partition/partition.c", "/home/chris/esp/v5.5/esp-idf/components/esp_partition/partition_target.c" ],
             "include_dirs": [ "include" ]
+        },
+        "esp_phy": {
+            "alias": "idf::esp_phy",
+            "target": "___idf_esp_phy",
+            "prefix": "idf",
+            "dir": "/home/chris/esp/v5.5/esp-idf/components/esp_phy",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_phy",
+            "reqs": [],
+            "priv_reqs": [ "nvs_flash", "esp_driver_gpio", "efuse", "esp_timer", "esp_wifi" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/esp_phy/libesp_phy.a",
+            "sources": [ "/home/chris/esp/v5.5/esp-idf/components/esp_phy/src/phy_override.c", "/home/chris/esp/v5.5/esp-idf/components/esp_phy/src/lib_printf.c", "/home/chris/esp/v5.5/esp-idf/components/esp_phy/src/phy_common.c", "/home/chris/esp/v5.5/esp-idf/components/esp_phy/src/phy_init.c", "/home/chris/esp/v5.5/esp-idf/components/esp_phy/esp32s3/phy_init_data.c", "/home/chris/esp/v5.5/esp-idf/components/esp_phy/src/btbb_init.c" ],
+            "include_dirs": [ "include", "esp32s3/include" ]
         },
         "esp_pm": {
             "alias": "idf::esp_pm",
@@ -613,6 +688,36 @@
             "sources": [ "/home/chris/esp/v5.5/esp-idf/components/esp_timer/src/esp_timer.c", "/home/chris/esp/v5.5/esp-idf/components/esp_timer/src/esp_timer_init.c", "/home/chris/esp/v5.5/esp-idf/components/esp_timer/src/ets_timer_legacy.c", "/home/chris/esp/v5.5/esp-idf/components/esp_timer/src/system_time.c", "/home/chris/esp/v5.5/esp-idf/components/esp_timer/src/esp_timer_impl_common.c", "/home/chris/esp/v5.5/esp-idf/components/esp_timer/src/esp_timer_impl_systimer.c" ],
             "include_dirs": [ "include" ]
         },
+        "esp_vfs_console": {
+            "alias": "idf::esp_vfs_console",
+            "target": "___idf_esp_vfs_console",
+            "prefix": "idf",
+            "dir": "/home/chris/esp/v5.5/esp-idf/components/esp_vfs_console",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_vfs_console",
+            "reqs": [],
+            "priv_reqs": [ "vfs", "esp_driver_uart", "esp_driver_usb_serial_jtag" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/esp_vfs_console/libesp_vfs_console.a",
+            "sources": [ "/home/chris/esp/v5.5/esp-idf/components/esp_vfs_console/vfs_console.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "esp_wifi": {
+            "alias": "idf::esp_wifi",
+            "target": "___idf_esp_wifi",
+            "prefix": "idf",
+            "dir": "/home/chris/esp/v5.5/esp-idf/components/esp_wifi",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_wifi",
+            "reqs": [ "esp_event", "esp_phy", "esp_netif" ],
+            "priv_reqs": [ "esptool_py", "esp_pm", "esp_timer", "nvs_flash", "wpa_supplicant", "hal", "lwip", "esp_coex" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/esp_wifi/libesp_wifi.a",
+            "sources": [ "/home/chris/esp/v5.5/esp-idf/components/esp_wifi/src/lib_printf.c", "/home/chris/esp/v5.5/esp-idf/components/esp_wifi/src/mesh_event.c", "/home/chris/esp/v5.5/esp-idf/components/esp_wifi/src/smartconfig.c", "/home/chris/esp/v5.5/esp-idf/components/esp_wifi/src/wifi_init.c", "/home/chris/esp/v5.5/esp-idf/components/esp_wifi/src/wifi_default.c", "/home/chris/esp/v5.5/esp-idf/components/esp_wifi/src/wifi_netif.c", "/home/chris/esp/v5.5/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "/home/chris/esp/v5.5/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c", "/home/chris/esp/v5.5/esp-idf/components/esp_wifi/regulatory/esp_wifi_regulatory.c", "/home/chris/esp/v5.5/esp-idf/components/esp_wifi/src/smartconfig_ack.c" ],
+            "include_dirs": [ "include", "include/local", "wifi_apps/include", "wifi_apps/nan_app/include" ]
+        },
         "espressif__led_strip": {
             "alias": "idf::espressif__led_strip",
             "target": "___idf_espressif__led_strip",
@@ -703,6 +808,21 @@
             "sources": [ "/home/chris/esp/v5.5/esp-idf/components/log/src/os/log_timestamp.c", "/home/chris/esp/v5.5/esp-idf/components/log/src/log_timestamp_common.c", "/home/chris/esp/v5.5/esp-idf/components/log/src/os/log_lock.c", "/home/chris/esp/v5.5/esp-idf/components/log/src/buffer/log_buffers.c", "/home/chris/esp/v5.5/esp-idf/components/log/src/os/util.c", "/home/chris/esp/v5.5/esp-idf/components/log/src/util.c", "/home/chris/esp/v5.5/esp-idf/components/log/src/log_format_text.c", "/home/chris/esp/v5.5/esp-idf/components/log/src/log_print.c", "/home/chris/esp/v5.5/esp-idf/components/log/src/log.c", "/home/chris/esp/v5.5/esp-idf/components/log/src/os/log_write.c", "/home/chris/esp/v5.5/esp-idf/components/log/src/log_level/log_level.c", "/home/chris/esp/v5.5/esp-idf/components/log/src/log_level/tag_log_level/tag_log_level.c", "/home/chris/esp/v5.5/esp-idf/components/log/src/log_level/tag_log_level/linked_list/log_linked_list.c", "/home/chris/esp/v5.5/esp-idf/components/log/src/log_level/tag_log_level/cache/log_binary_heap.c" ],
             "include_dirs": [ "include" ]
         },
+        "lwip": {
+            "alias": "idf::lwip",
+            "target": "___idf_lwip",
+            "prefix": "idf",
+            "dir": "/home/chris/esp/v5.5/esp-idf/components/lwip",
+            "type": "LIBRARY",
+            "lib": "__idf_lwip",
+            "reqs": [],
+            "priv_reqs": [ "vfs" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/lwip/liblwip.a",
+            "sources": [ "/home/chris/esp/v5.5/esp-idf/components/lwip/apps/sntp/sntp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/api/api_lib.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/api/api_msg.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/api/err.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/api/if_api.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/api/netbuf.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/api/netdb.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/api/netifapi.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/api/sockets.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/api/tcpip.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/apps/sntp/sntp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/apps/netbiosns/netbiosns.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/def.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/dns.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/inet_chksum.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/init.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ip.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/mem.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/memp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/netif.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/pbuf.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/raw.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/stats.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/sys.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/tcp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/tcp_in.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/tcp_out.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/timeouts.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/udp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv4/autoip.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv4/dhcp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv4/etharp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv4/icmp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv4/igmp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv4/ip4.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_napt.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_addr.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_frag.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv6/dhcp6.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv6/ethip6.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv6/icmp6.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv6/inet6.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv6/ip6.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_addr.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_frag.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv6/mld6.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/core/ipv6/nd6.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ethernet.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/bridgeif.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/bridgeif_fdb.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/slipif.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/auth.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/ccp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/chap-md5.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/chap-new.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/chap_ms.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/demand.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/eap.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/ecp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/eui64.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/fsm.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/ipcp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/ipv6cp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/lcp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/magic.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/mppe.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/multilink.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/ppp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/pppapi.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/pppcrypt.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/pppoe.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/pppol2tp.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/pppos.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/upap.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/utils.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/vj.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/port/hooks/tcp_isn_default.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/port/hooks/lwip_default_hooks.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/port/debug/lwip_debug.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/port/sockets_ext.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/port/freertos/sys_arch.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/port/if_index.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/port/acd_dhcp_check.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/port/esp32xx/vfs_lwip.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/apps/ping/esp_ping.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/apps/ping/ping.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/apps/ping/ping_sock.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/arc4.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/des.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md4.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md5.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/sha1.c", "/home/chris/esp/v5.5/esp-idf/components/lwip/apps/dhcpserver/dhcpserver.c" ],
+            "include_dirs": [ "include", "include/apps", "include/apps/sntp", "lwip/src/include", "port/include", "port/freertos/include/", "port/esp32xx/include", "port/esp32xx/include/arch", "port/esp32xx/include/sys" ]
+        },
         "main": {
             "alias": "idf::main",
             "target": "___idf_main",
@@ -710,12 +830,12 @@
             "dir": "/home/chris/TIC_III/proyecto1/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
-            "reqs": [ "driver" ],
+            "reqs": [ "driver", "lwip", "esp_netif", "nvs_flash", "esp_wifi", "esp_timer" ],
             "priv_reqs": [ "espressif__led_strip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__led_strip" ],
             "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/chris/TIC_III/proyecto1/main/blink_example_main.c" ],
+            "sources": [ "/home/chris/TIC_III/proyecto1/main/blink_example_main.c", "/home/chris/TIC_III/proyecto1/main/bmi270.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
@@ -747,6 +867,21 @@
             "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/newlib/libnewlib.a",
             "sources": [ "/home/chris/esp/v5.5/esp-idf/components/newlib/src/init.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/abort.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/assert.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/heap.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/locks.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/poll.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/pthread.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/random.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/getentropy.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/termios.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/stdatomic.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/time.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/sysconf.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/realpath.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/scandir.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/syscalls.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/reent_syscalls.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/port/esp_time_impl.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/flockfile.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/reent_init.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/newlib_init.c", "/home/chris/esp/v5.5/esp-idf/components/newlib/src/port/esp_time_impl.c" ],
             "include_dirs": [ "platform_include" ]
+        },
+        "nvs_flash": {
+            "alias": "idf::nvs_flash",
+            "target": "___idf_nvs_flash",
+            "prefix": "idf",
+            "dir": "/home/chris/esp/v5.5/esp-idf/components/nvs_flash",
+            "type": "LIBRARY",
+            "lib": "__idf_nvs_flash",
+            "reqs": [ "esp_partition" ],
+            "priv_reqs": [ "spi_flash", "newlib" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/nvs_flash/libnvs_flash.a",
+            "sources": [ "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_api.cpp", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_cxx_api.cpp", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_page.cpp", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_storage.cpp", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_handle_simple.cpp", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_handle_locked.cpp", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_partition.cpp", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_partition_lookup.cpp", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_types.cpp", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_platform.cpp", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_bootloader.c", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_encrypted_partition.cpp", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_bootloader_aes.c", "/home/chris/esp/v5.5/esp-idf/components/nvs_flash/src/nvs_bootloader_xts_aes.c" ],
+            "include_dirs": [ "include" ]
         },
         "partition_table": {
             "alias": "idf::partition_table",
@@ -822,6 +957,36 @@
             "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/spi_flash/libspi_flash.a",
             "sources": [ "/home/chris/esp/v5.5/esp-idf/components/spi_flash/flash_brownout_hook.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/esp32s3/spi_flash_oct_flash_init.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/spi_flash_hpm_enable.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/spi_flash_chip_drivers.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/spi_flash_chip_generic.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/spi_flash_chip_issi.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/spi_flash_chip_mxic.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/spi_flash_chip_gd.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/spi_flash_chip_winbond.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/spi_flash_chip_boya.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/spi_flash_chip_th.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/memspi_host_driver.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/cache_utils.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/flash_mmap.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/flash_ops.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/spi_flash_wrap.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/esp_flash_api.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/esp_flash_spi_init.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/spi_flash_os_func_app.c", "/home/chris/esp/v5.5/esp-idf/components/spi_flash/spi_flash_os_func_noos.c" ],
             "include_dirs": [ "include" ]
+        },
+        "vfs": {
+            "alias": "idf::vfs",
+            "target": "___idf_vfs",
+            "prefix": "idf",
+            "dir": "/home/chris/esp/v5.5/esp-idf/components/vfs",
+            "type": "LIBRARY",
+            "lib": "__idf_vfs",
+            "reqs": [],
+            "priv_reqs": [ "esp_timer", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_vfs_console" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/vfs/libvfs.a",
+            "sources": [ "/home/chris/esp/v5.5/esp-idf/components/vfs/vfs.c", "/home/chris/esp/v5.5/esp-idf/components/vfs/vfs_eventfd.c", "/home/chris/esp/v5.5/esp-idf/components/vfs/vfs_semihost.c", "/home/chris/esp/v5.5/esp-idf/components/vfs/nullfs.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "wpa_supplicant": {
+            "alias": "idf::wpa_supplicant",
+            "target": "___idf_wpa_supplicant",
+            "prefix": "idf",
+            "dir": "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant",
+            "type": "LIBRARY",
+            "lib": "__idf_wpa_supplicant",
+            "reqs": [],
+            "priv_reqs": [ "mbedtls", "esp_timer", "esp_wifi" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/chris/TIC_III/proyecto1/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
+            "sources": [ "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/port/os_xtensa.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/port/eloop.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/ap/ap_config.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/ap/sta_info.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/common/sae.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/common/dragonfly.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/common/wpa_common.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/utils/bitfield.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/utils/base64.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/utils/common.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/utils/ext_password.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/utils/uuid.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/utils/json.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/wps/wps.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/wps/wps_common.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/common/sae_pk.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_eap_client.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2_api_port.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpsk.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/rc4.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpbkdf2.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c", "/home/chris/esp/v5.5/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c" ],
+            "include_dirs": [ "include", "port/include", "esp_supplicant/include" ]
         },
         "xtensa": {
             "alias": "idf::xtensa",
@@ -1810,7 +1975,7 @@
             "priv_reqs": [ "vfs" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": []
+            "include_dirs": [ "include", "include/apps", "include/apps/sntp", "lwip/src/include", "port/include", "port/freertos/include/", "port/esp32xx/include", "port/esp32xx/include/arch", "port/esp32xx/include/sys" ]
         },
         "mbedtls": {
             "alias": "idf::mbedtls",
@@ -2142,7 +2307,7 @@
             "prefix": "idf",
             "dir": "/home/chris/TIC_III/proyecto1/main",
             "lib": "__idf_main",
-            "reqs": [ "driver" ],
+            "reqs": [ "driver", "lwip", "esp_netif", "nvs_flash", "esp_wifi", "esp_timer" ],
             "priv_reqs": [ "espressif__led_strip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__led_strip" ],
